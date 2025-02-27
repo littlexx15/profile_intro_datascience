@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # 设置页面标题和布局
-st.set_page_config(page_title="UnPatterned", layout="wide")
-st.title("UnPatterned")
+st.set_page_config(page_title="", layout="wide")
+st.title("SplashPatterns")
 
 # Unsplash API配置
 UNSPLASH_ACCESS_KEY = "cV2Slomwnm9YY0dp_lRF40J2QGatJfmmPxwJyzyZIlA"  # 请替换为你自己的Access Key
@@ -38,10 +38,10 @@ def search_unsplash(query, per_page=12):
     return image_urls
 
 # 侧边栏：提供颜色选择（或者你可以换成其他分类方式）
-st.sidebar.header("Filter Options")
+st.sidebar.header("Tone Selector")
 
 colors = ["None", "Red", "Blue", "Green", "Yellow", "Black", "White", "Purple", "Gray"]
-selected_color = st.sidebar.selectbox("Choose a color (optional)", colors)
+selected_color = st.sidebar.selectbox("", colors)
 
 # 构建最终查询字符串
 final_query = "pattern"
