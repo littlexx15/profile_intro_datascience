@@ -1,3 +1,0 @@
-__pycache__/
-.ipynb_checkpoints/
-data/ # 如果不想同步数据文件到 GitHub
