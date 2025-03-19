@@ -136,7 +136,7 @@ if st.sidebar.button("Show Patterns"):
         st.session_state["page"] = page_idx
         load_images(color=c)
 
-# ========== 8. (Optional) Frontend Color Refinement using Clustering for Precise Filtering or Sorting ========== #
+# ========== 8. Frontend Color Refinement using Clustering for Precise Filtering or Sorting ========== #
 if st.session_state["images"]:
     if refine_color and selected_color != "None":
         # Approximate RGB values; a more professional implementation might use a more detailed color mapping
