@@ -5,16 +5,16 @@ To ensure consistency and portability, it is highly recommended to create an iso
 
 ## Using Conda  
 
-- Create a new Conda environment (replace `myproject` with your preferred environment name):  
+- Create a new Conda environment
 
     ```sh  
-    conda create -n myproject python=3.8  
+    conda create -n data_science python=3.10  
     ```  
 
 - Activate the environment:  
 
     ```sh  
-    conda activate myproject  
+    conda activate data_science  
     ```  
 
 ## Using Virtualenv  
