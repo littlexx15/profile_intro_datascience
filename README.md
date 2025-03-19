@@ -1,7 +1,6 @@
 
 # Environment Setup and Dependency Installation  
 
-To ensure consistency and portability, it is highly recommended to create an isolated Python environment before installing the project dependencies.  
 
 ## Using Conda  
 
